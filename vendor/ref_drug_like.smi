@@ -1,0 +1,11 @@
+# Fallback novelty reference set for Phase 3 when ChEMBL-derived data is unavailable.
+CCO
+CCN
+CC(=O)O
+c1ccccc1
+CCOC(=O)C
+CCN(CC)CC
+CC(C)O
+CCOCN
+CC1=CC=CC=C1
+CC(C)N

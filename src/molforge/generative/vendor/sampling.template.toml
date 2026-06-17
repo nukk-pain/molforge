@@ -1,0 +1,10 @@
+run_type = "sampling"
+
+[parameters]
+model_file = "REPLACE_WITH_PRIOR_PATH"
+num_smiles = 100
+
+# molforge v1 accepts pocket input from the caller, but REINVENT pocket
+# semantics are intentionally not encoded locally yet.
+# Provide any additional live-only keys by editing the generated sampling.toml
+# before executing the helper scripts.

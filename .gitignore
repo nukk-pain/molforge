@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# uv
+.uv/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+credentials.json
+*.pem
+*.key
+secrets/
+
+# Model weights (large, GPU)
+weights/
+models/checkpoints/
+*.pt
+*.ckpt
+*.safetensors
+hf_cache/
+.cache/
+
+# ADMET-AI / Chemprop
+admet_ai_data/
+
+# REINVENT 4
+reinvent_weights/
+*.prior
+
+# Boltz-2 / OpenFold3
+boltz_weights/
+openfold3_weights/
+alphafold_db_cache/
+
+# Docking artifacts
+*.pdbqt
+docking_tmp/
+vina_logs/
+
+# Data / runs
+archive/runs/
+archive/cache/
+*.sqlite
+*.db
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local generated release artifacts
+*.backup-*
+zenodo-upload/
+# Public release staging outputs
+public-release/
+molforge-public/

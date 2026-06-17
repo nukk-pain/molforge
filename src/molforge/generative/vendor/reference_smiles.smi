@@ -1,0 +1,11 @@
+# Reference ligand library used for novelty scoring in Phase 3.
+CCO
+CCN
+CC(=O)O
+c1ccccc1
+CCOC(=O)C
+CCN(CC)CC
+CC(C)O
+CCOCN
+CC1=CC=CC=C1
+CC(C)N

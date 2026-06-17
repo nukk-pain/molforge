@@ -1,0 +1,22 @@
+[
+  {
+    "gene": {
+      "symbol": "CXCR4",
+      "ncbi_id": 7852,
+      "uniprot_id": "P61073"
+    },
+    "score": 0.92,
+    "evidence": [
+      {
+        "source": "literature",
+        "description": "CXCR4 signaling is implicated in chronic scar-pain inflammation.",
+        "confidence": 0.84
+      }
+    ],
+    "pathway": [
+      "chemokine_signaling",
+      "neuroinflammation"
+    ],
+    "notes": "CPU-first MVP example fixture"
+  }
+]

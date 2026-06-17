@@ -1,0 +1,68 @@
+{
+  "targets": [
+    {
+      "gene": "KCNH2",
+      "target_chembl_id": "CHEMBL240",
+      "fallback_reference_smiles": [
+        "CCN(CC)CCOc1ccc2[nH]ccc2c1",
+        "COc1ccc2[nH]ccc2c1OCCN(C)C"
+      ]
+    },
+    {
+      "gene": "COX1",
+      "target_chembl_id": "CHEMBL221",
+      "fallback_reference_smiles": [
+        "CC(=O)Oc1ccccc1C(=O)O"
+      ]
+    },
+    {
+      "gene": "CYP3A4",
+      "target_chembl_id": "CHEMBL340",
+      "fallback_reference_smiles": [
+        "CCOC(=O)N1CCC(CC1)Oc2ncccn2"
+      ]
+    },
+    {
+      "gene": "JAK2",
+      "target_chembl_id": "CHEMBL2971",
+      "fallback_reference_smiles": [
+        "CC1=C(C(=NN1)C2=CC=CC=C2)C3=NC=CC=N3"
+      ]
+    },
+    {
+      "gene": "VEGFR2",
+      "target_chembl_id": "CHEMBL279",
+      "fallback_reference_smiles": [
+        "COC1=CC2=C(C=C1)NC(=NC2=O)NC3=CC=CC=C3Cl"
+      ]
+    },
+    {
+      "gene": "BRAF",
+      "target_chembl_id": "CHEMBL5145",
+      "fallback_reference_smiles": [
+        "CC(C)(C)C1=NC(=C(N1)NC2=CC(=C(C=C2)Cl)C(F)(F)F)C3=CC=C(C=C3)S(=O)(=O)N"
+      ]
+    },
+    {
+      "gene": "PPARG",
+      "target_chembl_id": "CHEMBL235",
+      "fallback_reference_smiles": [
+        "CN(CCOC1=CC=CC=C1)CC2=CC=CC=C2"
+      ]
+    },
+    {
+      "gene": "CETP",
+      "target_chembl_id": "CHEMBL1075186",
+      "fallback_reference_smiles": [
+        "COC1=CC=C(C=C1)C(CN2CCC(CC2)OC3=CC=CC=C3)O"
+      ]
+    },
+    {
+      "gene": "TNF",
+      "target_chembl_id": "CHEMBL11849",
+      "fallback_reference_smiles": [
+        "CC1=CC(=O)NC(=O)N1"
+      ]
+    }
+  ]
+}
