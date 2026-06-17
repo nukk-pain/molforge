@@ -26,6 +26,32 @@ Do not commit .env files, caches, local databases, archive outputs, model
 weights, downloaded datasets, or generated run artifacts.
 ```
 
+## Example Agent Tasks
+
+Example 1 - run the CLI pipeline:
+
+```text
+Clone https://github.com/nukk-pain/molforge.
+Install it with uv sync --extra docking --extra admet --extra dev.
+Run:
+uv run molforge run examples/biocompute-targets.json --disease "scar pain" --output archive/runs/scar-pain.json
+Show me archive/runs/scar-pain.json, the top ranked ligands, whether generation
+was skipped, and any docking or ADMET errors.
+Do not commit generated outputs.
+```
+
+Example 2 - exercise the HTTP API:
+
+```text
+Clone https://github.com/nukk-pain/molforge.
+Install it with uv sync --extra docking --extra admet --extra dev.
+Start the API on 127.0.0.1:8000 with a local molforge.db.
+POST examples/api-run-request.json to /runs.
+Fetch /runs/<run_id> and /status.
+Report the run id, status, ranked candidates if present, and any API errors.
+Stop the server when finished and do not commit molforge.db or archive outputs.
+```
+
 For a local smoke run without live external dependencies, ask the agent to run
 the focused public-safe test slice instead:
 
